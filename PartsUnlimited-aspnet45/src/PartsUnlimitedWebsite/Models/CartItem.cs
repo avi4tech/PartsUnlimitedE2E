@@ -5,6 +5,7 @@ namespace PartsUnlimited.Models
 {
     public class CartItem : ILineItem
     {
+        // avi4tech change.
         [Key]
         public int CartItemId { get; set; }
 
